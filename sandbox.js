@@ -1,5 +1,3 @@
-// script.js
-
 const mainDiv = document.createElement('div');
 mainDiv.id = 'firstCont';
 mainDiv.classList.add('container', 'mx-auto', 'd-flex', 'h-100', 'justify-content-center', 'align-items-center');
@@ -14,7 +12,7 @@ rowDiv.style.height = '420px';
 
 
 for (let i = 0; i < 9; i++) {
-  const button = document.createElement('button');
+  const playButton = document.createElement('button');
   button.classList.add('btn', 'btn-block', 'h-100', 'w-100');
   button.style.backgroundColor = 'black';
 
@@ -23,7 +21,7 @@ for (let i = 0; i < 9; i++) {
   colDiv.classList.add('col-3', 'p-0');
   colDiv.style.margin = '1px';
 
-  colDiv.appendChild(button);
+  colDiv.appendChild(playButton);
   rowDiv.appendChild(colDiv);
 }
 
@@ -47,3 +45,22 @@ resetButton.appendChild(resetBtnText);
 
 const rootElement = document.getElementById('main');
 rootElement.appendChild(mainDiv);
+
+
+
+let player1 = document.createTextNode('X')
+player1.style.fontSize = "20px";
+let player2 = document.createTextNode('O')
+player2.style.fontSize = "20px";
+let playerState = 0;
+
+button.addEventListener("click", () => {
+playerState = playerState + 1;
+
+    switch (playerState) {
+        case 1:
+            button.appendChild(player1)
+            break;
+    }
+
+})

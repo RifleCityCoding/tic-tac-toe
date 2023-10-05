@@ -40,7 +40,9 @@ FUNCTIONS
             - (if [currentCombo] === [winCondition]) 
             - Switch statement?
             -If else statement?
-            -
+    - Need a function for when a player clicks button, switches state to next player
+    Switch case like mind reader?
+    playerState = 0 and on click event that changes cases
 
 
 
