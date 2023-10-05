@@ -31,9 +31,16 @@ innerDiv.appendChild(rowDiv);
 
 mainDiv.appendChild(innerDiv);
 
+const resetRowDiv = document.createElement('div');
+resetRowDiv.classList.add('row', 'm-0');
+
 const resetButton = document.createElement('button')
-resetButton.classList.add('btn', 'btn-primary', 'rounded-pill', 'col-3', 'align-self-center')
-innerDiv.appendChild(resetButton);
+resetButton.classList.add('btn', 'btn-primary', 'rounded-pill', 'col-3')
+resetButton.style.marginLeft = '25%';
+resetButton.style.marginTop = '10px';
+resetRowDiv.appendChild(resetButton);
+innerDiv.appendChild(resetRowDiv);
+
 
 let resetBtnText = document.createTextNode("Start Over")
 resetButton.appendChild(resetBtnText);
