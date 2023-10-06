@@ -47,11 +47,11 @@ function checkWinner() {
         colDiv.appendChild(playButton);
         rowDiv.appendChild(colDiv);
 
-        // let player1Text = document.createTextNode('X');
+        let player1Text = document.createTextNode('X');
         let player1Span = document.createElement('span');
         player1Span.style.fontSize = "30px";
         player1Span.style.color = 'white';
-        // player1Span.appendChild(player1Text);
+        player1Span.appendChild(player1Text);
 
         const player1Image = document.createElement('img');
         player1Image.src = 'images/bucee.jpg'
@@ -59,11 +59,11 @@ function checkWinner() {
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
 
-        // let player2Text = document.createTextNode('O');
+        let player2Text = document.createTextNode('O');
         let player2Span = document.createElement('span');
         player2Span.style.fontSize = "30px";
         player2Span.style.color = 'white';
-        // player2Span.appendChild(player2Text);
+        player2Span.appendChild(player2Text);
 
         const player2Image = document.createElement('img');
         player2Image.src = 'images/ainc-logo-text-triangle-layer-red.png';
