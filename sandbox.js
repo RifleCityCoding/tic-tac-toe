@@ -54,7 +54,7 @@ function checkWinner() {
         // player1Span.appendChild(player1Text);
 
         const player1Image = document.createElement('img');
-        player1Image.src = '/images/bucee.jpg'
+        player1Image.src = 'images/bucee.jpg'
         player1Image.style.width = '60px';
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
@@ -66,7 +66,7 @@ function checkWinner() {
         // player2Span.appendChild(player2Text);
 
         const player2Image = document.createElement('img');
-        player2Image.src = '/images/ainc-logo-text-triangle-layer-red.png';
+        player2Image.src = 'images/ainc-logo-text-triangle-layer-red.png';
         player2Image.style.width = '60px';
         player2Image.style.height = '60px';
         player2Span.appendChild(player2Image)
