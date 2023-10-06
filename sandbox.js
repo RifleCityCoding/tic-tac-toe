@@ -59,17 +59,17 @@ function checkWinner() {
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
 
-        const player2Image = document.createElement('img');
-        player2Image.src = '/images/ainc-logo-text-triangle-layer-red.png';
-        player2Image.style.width = '60px';
-        player2Image.style.height = '60px';
-        player2Span.appendChild(player2Image)
-
         // let player2Text = document.createTextNode('O');
         let player2Span = document.createElement('span');
         player2Span.style.fontSize = "30px";
         player2Span.style.color = 'white';
         // player2Span.appendChild(player2Text);
+
+        const player2Image = document.createElement('img');
+        player2Image.src = '/images/ainc-logo-text-triangle-layer-red.png';
+        player2Image.style.width = '60px';
+        player2Image.style.height = '60px';
+        player2Span.appendChild(player2Image)
 
 
         playButton.addEventListener("click", () => {
