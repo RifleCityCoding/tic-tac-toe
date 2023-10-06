@@ -54,13 +54,13 @@ function checkWinner() {
         // player1Span.appendChild(player1Text);
 
         const player1Image = document.createElement('img');
-        player1Image.src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Ffoxpod%2Fbuc-ees%2F&psig=AOvVaw0gwmOl2y_XCAT2YMCp_iwq&ust=1696682276318000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCjv5S44YEDFQAAAAAdAAAAABAE'
+        player1Image.src = '/images/bucee.jpg'
         player1Image.style.width = '60px';
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
 
         const player1Image = document.createElement('img');
-        player2Image.src = '';
+        player2Image.src = '/images/ainc-logo-text-triangle-layer-red.png';
         player2Image.style.width = '60px';
         player2Image.style.height = '60px';
         player2Span.appendChild(player2Image)
