@@ -59,11 +59,17 @@ function checkWinner() {
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
 
-        let player2Text = document.createTextNode('O');
+        const player1Image = document.createElement('img');
+        player2Image.src = '';
+        player2Image.style.width = '60px';
+        player2Image.style.height = '60px';
+        player2Span.appendChild(player2Image)
+
+        // let player2Text = document.createTextNode('O');
         let player2Span = document.createElement('span');
         player2Span.style.fontSize = "30px";
         player2Span.style.color = 'white';
-        player2Span.appendChild(player2Text);
+        // player2Span.appendChild(player2Text);
 
 
         playButton.addEventListener("click", () => {
