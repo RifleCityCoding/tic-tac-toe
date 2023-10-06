@@ -59,7 +59,7 @@ function checkWinner() {
         player1Image.style.height = '60px';
         player1Span.appendChild(player1Image);
 
-        const player1Image = document.createElement('img');
+        const player2Image = document.createElement('img');
         player2Image.src = '/images/ainc-logo-text-triangle-layer-red.png';
         player2Image.style.width = '60px';
         player2Image.style.height = '60px';
