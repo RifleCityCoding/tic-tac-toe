@@ -35,6 +35,10 @@ FUNCTIONS
     - Clickable divs to apply X and O depending on active user
         - Event listener that applies users choice and switches state to new user each time
     - Need a winCondition
+    (Update) - We should try a for loop? Research condition for loops
+        - condition of condition? for loop looks interesting. How do I use that with arrays?
+        - AHA! condition = the array! But how would i do that?
+        - Further searching shows that I can use an array as a variable?? weird but lets try it
         - Are we going to determine the winCondition combinations with arrays?
         - If certain divs are aligned they will create a win condition..
             - (if [currentCombo] === [winCondition]) 
@@ -43,6 +47,8 @@ FUNCTIONS
     - Need a function for when a player clicks button, switches state to next player
     Switch case like mind reader?
     playerState = 0 and on click event that changes cases
+    Used switch case, prof recommended if statement. maybe do an if else with if(playerState = ?)
+
 
 
 
